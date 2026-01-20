@@ -7,4 +7,13 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+venv/
+env/
+venv/
+ENV/
+
+# Ruff
+.ruff_cache/
+
+# mypy cache
+.mypy_cache/

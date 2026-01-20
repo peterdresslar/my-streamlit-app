@@ -1,5 +1,5 @@
 def main():
-    print("Hello from kantian-whole!")
+    print("Hello from my-streamlit-app!")
 
 
 if __name__ == "__main__":

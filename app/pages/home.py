@@ -2,14 +2,15 @@ import streamlit as st
 
 def render_sidebar() -> None:
     with st.sidebar:
-        st.markdown("""Navigation in progress""")
+        # note that nav can build automatically
+        st.link_button("About Me", "#")
     
 def render_intro() -> None:
   with st.container():
-    st.header("Kantian Wholes in complexity science")
-    st.subheader("Peter Dresslar")
+    st.header("This is a Streamlit App")
+    st.subheader("By a person named: ")
     st.markdown(
-        r"""Text here.
+        r"""Some text can go here
         
         
         
@@ -20,14 +21,14 @@ def render_intro() -> None:
     )
     
 def render_note() -> None:
-    st.caption(
+    st.write(
         "Notes: No notes yet."
     )
 
 
 def render_footer() -> None:
     st.divider()
-    st.markdown("Quick Navigation")
+    st.subhead("Quick Navigation")
     # st.page_link("pages/somepage.py", label="Next: Some Page", icon="➡️")
     # st.page_link("pages/home.py", label="Home", icon="🏠")
 

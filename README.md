@@ -8,6 +8,17 @@ Peter Dresslar, @peterdresslar
 
 Clone or create a repo from this template.
 
+Adding a page:
+```bash
+touch app/pages/somepage.py
+```
+
+## To clean
+
+```bash
+uv run ruff check --fix
+```
+
 ## To run with uv
 
 ```bash

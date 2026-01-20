@@ -13,7 +13,7 @@ def set_icon() -> str:
 def main() -> None:
     icon = set_icon()
     st.set_page_config(
-        page_title="Kantian Whole",
+        page_title="My Streamlit App",
         page_icon=icon,
         layout="wide",
         initial_sidebar_state="expanded",
