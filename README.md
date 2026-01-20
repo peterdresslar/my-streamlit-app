@@ -1,9 +1,21 @@
-# Kantian Whole
+# My Streamlit App Template
 
-A Streamlit app exploring the connection between Kantian Holes and Complexity Science. 
+A quick start on Streamlit apps with a tilt toward pages.
 
 Peter Dresslar, @peterdresslar
 
-## To run
+## To develop
 
-Activate your
+Clone or create a repo from this template.
+
+## To run with uv
+
+```bash
+uv venv
+uv sync
+uv run streamlit run app/app.pu
+```
+
+## To deploy
+
+There is a button, but I prefer to just find my repo from the streamlit app site. YOLO and/or YMMV
