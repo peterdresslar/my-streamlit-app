@@ -28,7 +28,7 @@ def render_note() -> None:
 
 def render_footer() -> None:
     st.divider()
-    st.subhead("Quick Navigation")
+    st.subheader("Quick Navigation")
     # st.page_link("pages/somepage.py", label="Next: Some Page", icon="➡️")
     # st.page_link("pages/home.py", label="Home", icon="🏠")
 
