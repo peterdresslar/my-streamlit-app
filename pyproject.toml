@@ -12,3 +12,6 @@ dependencies = [
 dev = [
     "ruff>=0.14.13",
 ]
+
+[project-scripts]
+start = "app.main:run_app"

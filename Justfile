@@ -1,0 +1,2 @@
+start:
+    uv run streamlit run app/app.py

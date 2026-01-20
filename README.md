@@ -24,7 +24,10 @@ uv run ruff check --fix
 ```bash
 uv venv
 uv sync
-uv run streamlit run app/app.pu
+uv run streamlit run app/app.py
+
+# or, if you use just:
+# just start
 ```
 
 ## To deploy
